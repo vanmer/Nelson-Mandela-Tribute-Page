@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: $light-color;
+  background-color: $white-color;
   font-family: $font-stack;
   color: $primary-color;
   line-height: 1.6;
@@ -23,11 +23,12 @@ a {
 }
 
 #showcase {
-  background: url(/img/nelson-mandela-showcase.jpeg) no-repeat center
+  background: url('../img/nelson-mandela-showcase.png') no-repeat center
     center/cover;
+}
 
   .showcase-text {
-    display: grid;
+    display: flex;
     width: 100%;
     height: 100vh;
     justify-content: center;
@@ -56,10 +57,9 @@ a {
     // }
 
     .tribute-title {
-      padding: 2rem;
-      margin-top: 35rem;
+      padding: 0.5rem 1.5rem;
+      margin-top: 80vh;
       background-color: $white-color;
-      
 
       h1 {
         font-size: 4.5rem;
@@ -68,27 +68,49 @@ a {
       h2 {
         font-size: 2.2rem;
         font-weight: 800;
-        margin-top: -2rem;
-      }
+        margin-top: -1.5rem;
       }
     }
-}
+  }
+
 
 .main-section {
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   padding: 3rem 6rem;
   font-size: 1.4rem;
-  
+
   #introduction {
-      margin: 2rem 0;
-      font-size: 1.6rem;
+    margin: 2rem 0 4rem 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .text {
+    font-weight: 400;
+  }
+
+  .text h2 {
+    justify-content: center;
+    font-size: 3rem;
+    // padding: 1rem;
+    margin: 2rem 0 0.5rem 0;
+  }
+  .text h3 {
+    padding: 0.4rem 0 0 0;
   }
   .text p {
-      padding: 1.5rem 0;
+    padding: 1.4rem 0 1.8rem 0;
   }
-  
+  .text aside {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+  }
 }
