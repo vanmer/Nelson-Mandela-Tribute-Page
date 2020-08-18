@@ -83,27 +83,29 @@ a {
   .text {
     font-weight: 400;
 
-    .box1 {
+    .box {
       display: inline-block;
-    }
 
-    h2 {
-      clear: both;
-      float: left;
-      font-size: 3rem;
-      margin: 2rem 0 0.5rem 0;
-      line-height: 1.2;
-      background-color: $box1-color;
-    }
+      h2 {
+        clear: both;
+        float: left;
+        font-size: 3rem;
+        margin: 2rem 0 0.5rem 0;
+        line-height: 1.2;
+        background-color: $box1-color;
+      }
 
-    h3 {
-      padding: 0.4rem 0 0 0;
-      margin: 1rem 0 -0.7rem 0;
-      line-height: 1.2;
+      h3 {
+        padding: 0.4rem 0 0 0;
+        margin: 1rem 0 -0.8rem 0;
+        line-height: 1.2;
+        background-color: $box2-color;
+      }
     }
 
     p {
       padding: 1.4rem 0 1.8rem 0;
+      margin-top: -0.8rem;
     }
 
     aside {
