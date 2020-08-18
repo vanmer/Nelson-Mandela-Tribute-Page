@@ -25,6 +25,7 @@ a {
 #showcase {
   background: url("../img/nelson-mandela-showcase.png") no-repeat center
     center/cover;
+
   .showcase-text {
     display: flex;
     width: 100%;
@@ -81,11 +82,17 @@ a {
   .text {
     font-weight: 400;
 
+    .box1 {
+      display: inline-block;
+    }
+
     h2 {
-      justify-content: center;
+      clear: both;
+      float: left;
       font-size: 3rem;
       margin: 2rem 0 0.5rem 0;
       line-height: 1.2;
+      background-color: $box1-color;
     }
 
     h3 {
