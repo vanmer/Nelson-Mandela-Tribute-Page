@@ -98,10 +98,11 @@
     width: 100%;
     height: auto;
     visibility: hidden;
-    overflow: hidden;
+    overflow: scroll;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #fff;
   }
 
  .menu-wrap .menu > div {
@@ -122,7 +123,7 @@
   }
 
  .menu-wrap .menu .hamburger-nav {
-    //  margin-top: 4.5rem;
+    margin: 0
  }
 
  .menu-wrap .menu > div > div > ul > li {
