@@ -1,6 +1,7 @@
 @import "config";
 @import "utils";
 @import "hamburger";
+@import "navbar";
 
 * {
   box-sizing: border-box;
@@ -42,7 +43,7 @@ a {
 
     .tribute-title {
       padding: 0.5rem 1.5rem;
-      margin-top: 80vh;
+      margin-top: 75vh;
       background-color: $white-color;
 
       h1 {
@@ -109,7 +110,7 @@ a {
     }
 
     p {
-      padding: 1.4rem 0 1.8rem 0;
+      padding: 1.8rem 0 1.8rem 0;
       margin-top: -0.8rem;
     }
 
