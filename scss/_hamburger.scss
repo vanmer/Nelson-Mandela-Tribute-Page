@@ -1,16 +1,16 @@
 .menu-wrap {
-    display: none;
-    position: absolute;
+    display: inline-block;
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 5;
 }
 
 .menu-wrap .toggler {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 10;
     cursor: pointer;
     width: 50px;
     height: 50px;
@@ -25,11 +25,11 @@
     width: 55px;
     height: 55px;
     padding: 1rem;
-    background: var(--fifth-color);
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.6rem 0 0 0.7rem;
+    margin: 0.8rem 0 0 0.8rem;
 }
 
 /* Hamburger Line */
@@ -38,7 +38,7 @@
     flex: none;
     width: 100%;
     height: 3px;
-    background: var(--secondary-color);
+    background: #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,10 +105,10 @@
   }
 
  .menu-wrap .menu > div {
-    background: var(--fifth-color);
+    background: #fff;
     text-align: center;
     width: 100vw;
-    max-width: 100vh;
+    max-width: 100vw;
     opacity: 1;
     transition: opacity 0.2s ease;
   }
@@ -122,19 +122,19 @@
   }
 
  .menu-wrap .menu .hamburger-nav {
-     margin-top: 4.5rem;
+    //  margin-top: 4.5rem;
  }
 
  .menu-wrap .menu > div > div > ul > li {
     width: 100vw;
     list-style: none;
-    color: var(--fourth-color);
-    font-size: 1.5rem;
-    padding: 2.5rem;
-    border-top: 1px solid var(--sixth-color);
+    color: rgb(40,40,40);
+    font-size: 1.4rem;
+    padding: 1.2rem;
+    border-top: 1px solid rgb(160, 160, 160);
   }
   .menu-wrap .menu > div > div > ul:last-child {
-      border-bottom: 1px solid var(--sixth-color);
+      border-bottom: 1px solid rgb(160, 160, 160);
   }
 
  .menu-wrap .menu > div > div > ul > li > a {
