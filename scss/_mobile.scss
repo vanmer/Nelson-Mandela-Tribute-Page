@@ -1,3 +1,9 @@
+@media screen and (max-width: 780px) {
+  .navbar .header-container .logo {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .wrapper {
     padding: 0 1rem;
@@ -46,5 +52,18 @@
         margin: 0.2rem 0 -0.8rem 0;
       }
     }
+  }
+
+  .menu-wrap {
+    display: inline;
+  }
+  .menu-wrap .menu {
+    width: 100vw;
+  }
+  .menu-wrap .menu > div {
+    width: 100vw;
+  }
+  .menu-wrap .menu > div > div {
+    height: 100%;
   }
 }

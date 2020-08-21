@@ -17,8 +17,9 @@
 .navbar .header-container .logo {
     display: flex;
     justify-items: center;
-    align-self: center;
-    font-weight: 800;
+    align-self: flex-end;
+    padding-right: 1rem;
+    font-weight: 700;
     font-size: 1.2rem;
     line-height: 1.5;
 }
