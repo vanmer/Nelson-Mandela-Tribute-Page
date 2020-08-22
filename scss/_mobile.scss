@@ -1,6 +1,22 @@
+@media screen and (max-width: 1030px) {
+  .menu-wrap .menu {
+    width: 35vw;
+  }
+  .menu-wrap .menu > div {
+    width: 35vw;
+  }
+
+}
+
 @media screen and (max-width: 780px) {
   .navbar .header-container .logo {
     font-size: 1rem;
+  }
+  .menu-wrap .menu {
+    width: 43vw;
+  }
+  .menu-wrap .menu > div {
+    width: 43vw;
   }
 }
 
