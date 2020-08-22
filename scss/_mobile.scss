@@ -12,6 +12,9 @@
 }
 
 @media screen and (max-width: 780px) {
+  .wrapper {
+    padding: 0 1rem;
+  }
   .navbar .header-container .logo {
     font-size: 1rem;
   }
