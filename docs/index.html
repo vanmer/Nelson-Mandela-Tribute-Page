@@ -10,34 +10,43 @@
   </head>
 
   <body>
-    <!-- Menu-Wrap -->
-    <div class="menu-wrap">
-      <input type="checkbox" class="toggler">
-      <div class="hamburger"><div></div></div>
-      <div class="menu">
-        <div>
-          <div class="hamburger-nav">
-            <ul>
-              <li><a href="#introduction">Introduction</a></li>
-              <li><a href="#early-life">Early Life</a></li>
-              <li><a href="#revolutionary-activity">Revolutionary activity</a></li>
-              <li><a href="#imprisonment">Imprisonment</a></li>
-              <li><a href="#end-of-apartheid">End of apartheid</a></li>
-              <li><a href="#presidency">Presidency of South Africa: 1994–1999</a></li>
-              <li><a href="#retirement">Retirement</a></li>
-              <li><a href="#political-ideology">Political ideology</a></li>
-              <li><a href="#personal-life">Personality and personal life</a></li>
-              <li><a href="#legacy">Reception and legacy</a></li>
-              <li><a href="#credits">Credits</a></li>
-            </ul>
+    <nav class="navbar">
+      <div class="header-container">
+        <h1 class="logo" id="blacklivesmatter">#blacklivesmatter</h1>
+        <div class="hamburger-container">
+          <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+             <div class="menu">
+              <div>
+                <div class="hamburger-nav">
+                  <ul>
+                    <li><a href="#start">Start</a></li>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#early-life">Early Life</a></li>
+                    <li><a href="#revolutionary-activity">Revolutionary activity</a></li>
+                    <li><a href="#imprisonment">Imprisonment</a></li>
+                    <li><a href="#end-of-apartheid">End of apartheid</a></li>
+                    <li><a href="#presidency">Presidency of South Africa: 1994–1999</a></li>
+                    <li><a href="#retirement">Retirement</a></li>
+                    <li><a href="#political-ideology">Political ideology</a></li>
+                    <li><a href="#personal-life">Personality and personal life</a></li>
+                    <li><a href="#legacy">Reception and legacy</a></li>
+                    <li><a href="#credits">Credits</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </nav>
+
     
+    <div id="main-content">
     <!-- Showcase -->
     <div id="showcase">
-      <div class="showcase-text">
+      <div class="showcase-text" id="start">
         <div class="tribute-title">
           <h1>Nelson Mandela</h1>
           <h2>Tribute Page</h2>
@@ -48,7 +57,10 @@
     <!-- Main Section -->
     <div class="wrapper">
       <main class="main-section">
-        <div id="introduction">
+        <article id="introduction">
+          <div class="box intro-title">
+            <h2>Introduction</h2>
+          </div>
           <p>
             Nelson Rolihlahla Mandela (/mænˈdɛlə/; Xhosa: [xolíɬaɬa mandɛ̂ːla];
             18 July 1918 – 5 December 2013) was a South African anti-apartheid
@@ -116,7 +128,7 @@
             where he is often referred to by his Thembu clan name, Madiba, and
             described as the "Father of the Nation".
           </p>
-        </div>
+        </article>
 
         <div class="slider-image">
           <img
@@ -162,7 +174,10 @@
                 wife, Nosekeni Fanny, daughter of Nkedama of the Right Hand
                 House and a member of the amaMpemvu clan of the Xhosa.
               </p>
-              <img src="img/nelson-mandela-09.jpg" alt="nelson-mandela-xhosa" />
+              <img 
+                src="img/nelson-mandela-09.jpg" 
+                alt="nelson-mandela-xhosa" 
+                class="x-small-img"/>
               <p>
                 Mandela later stated that his early life was dominated by
                 traditional Thembu custom and taboo. He grew up with two sisters
@@ -233,7 +248,11 @@
                 of his spare time at Healdtown as a long-distance runner and
                 boxer, and in his second year he became a prefect.
               </p>
-              <img src="img/nelson-boxer.jpg" alt="nelson-boxer" />
+              <img 
+                src="img/nelson-boxer.jpg" 
+                alt="nelson-boxer" 
+                class="small-img"
+              />
               <p>
                 With Jongintaba's backing, in 1939 Mandela began work on a BA
                 degree at the University of Fort Hare, an elite black
@@ -287,7 +306,11 @@
                 of South Africa correspondence course, working on his bachelor's
                 degree at night.
               </p>
-              <img src="img/nelson-uni.jpg" alt="nelson-uni" />
+              <img 
+                src="img/nelson-uni.jpg" 
+                alt="nelson-uni"
+                class="large-img"
+              />
               <p>
                 Earning a small wage, Mandela rented a room in the house of the
                 Xhoma family in the Alexandra township; despite being rife with
@@ -432,6 +455,7 @@
               <img
                 src="img/nelson-mandela-a6f566c1021.jpg"
                 alt="nelson-defiance"
+                class="large-img"
               />
               <p>
                 In 1952, the ANC began preparation for a joint Defiance Campaign
@@ -476,6 +500,7 @@
               <img
                 src="img/Nelson-Mandela-young-1.Jpeg"
                 alt="nelson-attorney"
+                class="medium-img"
               />
               <p>
                 Mandela obtained work as an attorney for the firm Terblanche and
@@ -556,7 +581,11 @@
                 prison. Together they had two children: Zenani, born in February
                 1959, and Zindziswa (1960–2020).
               </p>
-              <img src="img/nelson-office.jpg" alt="nelson-office" />
+              <img 
+                src="img/nelson-office.jpg" 
+                alt="nelson-office" 
+                class="large-img"
+              />
               <p>
                 In December 1956, Mandela was arrested alongside most of the ANC
                 national executive, and accused of "high treason" against the
@@ -634,7 +663,10 @@
                 Albert Luthuli—who was morally opposed to violence—and allied
                 activist groups of its necessity.
               </p>
-              <img src="img/nelson-crowd.jpg" alt="nelson-crowd" />
+              <img 
+                src="img/nelson-crowd.jpg" 
+                alt="nelson-crowd" 
+              />
               <p>
                 Inspired by the actions of Fidel Castro's 26th of July Movement
                 in the Cuban Revolution, in 1961 Mandela, Sisulu, and Slovo
@@ -683,7 +715,11 @@
                 bombings on Dingane's Day (16 December) 1961, followed by
                 further attacks on New Year's Eve.
               </p>
-              <img src="img/nelson-1961.jpg" alt="nelson-1961" />
+              <img 
+                src="img/nelson-1961.jpg" 
+                alt="nelson-1961" 
+                class="small-img"
+              />
               <p>
                 The ANC decided to send Mandela as a delegate to the February
                 1962 meeting of the Pan-African Freedom Movement for East,
@@ -740,6 +776,7 @@
               <img
                 src="img/Nelson+Mandela+1960-riviiona-trial-speech.jpg"
                 alt="nelson-riviona-trial"
+                class="large-img"
               />
               <p>
                 On 11 July 1963, police raided Liliesleaf Farm, arresting those
@@ -776,7 +813,11 @@
                 1963 until February 1964, calling 173 witnesses and bringing
                 thousands of documents and photographs to the trial.
               </p>
-              <img src="img/ns-mandela-tambo2.jpg" alt="" />
+              <img 
+                src="img/ns-mandela-tambo2.jpg" 
+                alt="nelson-tambo"
+                class="x-large-img" 
+              />
               <p>
                 Although four of the accused denied involvement with MK, Mandela
                 and the other five accused admitted sabotage but denied that
@@ -835,6 +876,7 @@
               <img
                 src="img/mandela-robben-island.jpg"
                 alt="mandela-robben-island"
+                class="x-large-img"
               />
               <p>
                 Though attending Christian Sunday services, Mandela studied
@@ -870,7 +912,11 @@
                 co-operative relationship with Mandela and was keen to improve
                 prison standards
               </p>
-              <img src="img/nelson-robben.jpg" alt="" />
+              <img 
+                src="img/nelson-robben.jpg" 
+                alt="nelson-robben-2"
+                class="small-img"
+              />
               <p>
                 By 1975, Mandela had become a Class A prisoner, which allowed
                 him greater numbers of visits and letters. He corresponded with
@@ -944,7 +990,11 @@
                 remains banned? Only free men can negotiate. A prisoner cannot
                 enter into contracts.
               </p>
-              <img src="img/nelson-mandela-cell.jpg" alt="" />
+              <img 
+                src="img/nelson-mandela-cell.jpg" 
+                alt="nelson-prison-cell"
+                class="x-small-img" 
+              />
               <p>
                 In 1985, Mandela underwent surgery on an enlarged prostate
                 gland, before being given new solitary quarters on the ground
@@ -1084,7 +1134,11 @@
                 Tambo, and a 50-strong multiracial, mixed gendered national
                 executive was elected.
               </p>
-              <img src="img/nelson-1990.jpeg" alt="" />
+              <img 
+                src="img/nelson-1990.jpeg" 
+                alt="nelson-1990"
+                class="x-large-img" 
+              />
               <p>
                 Mandela was given an office in the newly purchased ANC
                 headquarters at Shell House, Johannesburg, and moved into
@@ -1139,7 +1193,10 @@
                 action, in August the ANC organised the largest-ever strike in
                 South African history, and supporters marched on Pretoria.
               </p>
-              <img src="img/mandela-codesa.jpg" alt="mandela-codesa" />
+              <img 
+                src="img/mandela-codesa.jpg" 
+                alt="mandela-codesa" 
+              />
               <p>
                 Following the Bisho massacre, in which 28 ANC supporters and one
                 soldier were shot dead by the Ciskei Defence Force during a
@@ -1287,6 +1344,7 @@
               <img
                 src="img/Nelson-Mandela-president.jpg"
                 alt="mandela-president"
+                class="small-img"
               />
             </section>
             <section>
@@ -1351,7 +1409,10 @@
                 of being more interested in appeasing the white community than
                 in helping the black majority.
               </p>
-              <img src="img/nelson-mandela-to-boston.jpg" alt="nelson-boston">
+              <img 
+                src="img/nelson-mandela-to-boston.jpg" 
+                alt="nelson-boston" 
+              />
               <p>
                 Mandela oversaw the formation of a Truth and Reconciliation
                 Commission to investigate crimes committed under apartheid by
@@ -1412,7 +1473,10 @@
                 grid, water access was extended to 3 million people, and 750,000
                 houses were constructed, housing nearly 3 million people.
               </p>
-              <img src="img/nelson-mandela-children.jpeg" alt="mandela-children">
+              <img 
+                src="img/nelson-mandela-children.jpeg" 
+                alt="mandela-children"
+              />
               <p>
                 The Land Reform Act 3 of 1996 safeguarded the rights of labour
                 tenants living on farms where they grew crops or grazed
@@ -1458,7 +1522,10 @@
               <div class="box">
                 <h3>Foreign affairs</h3>
               </div>
-              <img src="img/nelson-clinton.jpg" alt="nelson-clinton">
+              <img 
+                src="img/nelson-clinton.jpg" 
+                alt="nelson-clinton"
+              />
               <p>
                 Mandela expressed the view that "South Africa's future foreign
                 relations [should] be based on our belief that human rights
@@ -1531,7 +1598,10 @@
               <div class="box">
                 <h3>Withdrawing from politics</h3>
               </div>
-              <img src="img/nelson-diana.jpg" alt="nelson-diana">
+              <img 
+                src="img/nelson-diana.jpg" 
+                alt="nelson-diana"
+              />
               <p>
                 The new Constitution of South Africa was agreed upon by
                 parliament in May 1996, enshrining a series of institutions to
@@ -1645,7 +1715,10 @@
                 spoke out against the conditions of his treatment, referring to
                 them as "psychological persecution".
               </p>
-              <img src="img/mandela-later-speech.jpg" alt="mandela-later-speech">
+              <img 
+                src="img/mandela-later-speech.jpg" 
+                alt="mandela-later-speech"
+              />
             </section>
             <section>
               <div class="box">
@@ -1741,7 +1814,11 @@
                 media. His US$4.1 million estate was left to his widow, other
                 family members, staff, and educational institutions.
               </p>
-              <img src="img/nelson-mandela-later-years.jpg" alt="nelson-mandela-later-years">
+              <img 
+                src="img/nelson-mandela-later-years.jpg" 
+                alt="nelson-mandela-later-years"
+                class="x-large-img"
+              />
             </section>
           </article>
           <article id="political-ideology">
@@ -1866,7 +1943,11 @@
                 historian Stephen Ellis commented that Mandela had assimilated
                 much of the Marxist–Leninist ideology by 1960.
               </p>
-              <img src="img/nelson-castro.jpg" alt="nelson-castro">
+              <img 
+                src="img/nelson-castro.jpg" 
+                alt="nelson-castro"
+                class="x-large-img"
+              />
               <p>
                 Ellis also found evidence that Mandela had been an active member
                 of the South African Communist Party during the late 1950s and
@@ -1902,7 +1983,11 @@
               <h2>Personality and personal life</h2>
             </div>
             <section>
-              <img src="img/nelson-bw-portrait.jpg" alt="nelson-bw-portrait">
+              <img 
+                src="img/nelson-bw-portrait.jpg" 
+                alt="nelson-bw-portrait"
+                class="small-img"
+              />
               <p>
                 Mandela was widely considered a charismatic leader, described by
                 biographer Mary Benson as "a born mass leader who could not help
@@ -2018,7 +2103,11 @@
                 totemic values of our age: toleration and liberal democracy" and
                 "a universal symbol of social justice".
               </p>
-              <img src="img/mandela-full-portrait-1993.jpg" alt="mandela-full-portrait">
+              <img 
+                src="img/mandela-full-portrait-1993.jpg" 
+                alt="mandela-full-portrait"
+                class="x-small-img"
+              />
               <p>
                 Mandela's international fame had emerged during his
                 incarceration in the 1980s, when he became the world's most
@@ -2091,7 +2180,11 @@
                 Order of St. John and granted him membership in the Order of
                 Merit.
               </p>
-              <img src="img/mandela-nobel-prize.jpg" alt="mandela-nobel-prize">
+              <img 
+                src="img/mandela-nobel-prize.jpg" 
+                alt="mandela-nobel-prize"
+                class="x-large-img"
+              />
               <p>
                 In 2004, Johannesburg granted Mandela the Freedom of the City,
                 and in 2008 a Mandela statue was unveiled at the spot where
@@ -2147,7 +2240,11 @@
                 industry" has played a significant part in "the crafting of
                 Mandela's global image".
               </p>
-              <img src="img/nelson-portrait-flag.jpg" alt="nelson-portrait-flag">
+              <img 
+                src="img/nelson-portrait-flag.jpg" 
+                alt="nelson-portrait-flag"
+                class="small-img"
+              />
             </section>
           </article>
           <article id="credits">
@@ -2159,7 +2256,7 @@
               The text from this tribute page is taken from this
               <a href="https://en.wikipedia.org/wiki/Nelson_Mandela"
                 >wikipedia article</a
-              >. Thus all credit belongs to their authors. If you want to
+              >. Therefore all credit belongs to their authors. If you want to
               learn more about this larger than life man, feel free to take a look at this article.
             </p>
           </section>
@@ -2167,6 +2264,8 @@
         </div>
       </main>
     </div>
+
+  </div>
 
     <!-- Footer -->
     <footer class="footer">

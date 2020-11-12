@@ -1,11 +1,17 @@
 @import "config";
 @import "utils";
 @import "hamburger";
+@import "nav";
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -28,8 +34,49 @@ a {
   width: 100vw;
 }
 
+.x-small-img {
+  width: 48%;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 1rem;
+}
+
+.small-img {
+  width: 55%;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 1rem;
+}
+
+.medium-img {
+  width: 67%;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 1rem;
+}
+
+.large-img {
+  width: 75%;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 1rem;
+}
+
+.x-large-img {
+  width: 82%;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 1rem;
+}
+
+
 #showcase {
-  background: url("../img/nelson-mandela-showcase.png") no-repeat center
+  background: url("../img/nelson-mandela-showcase.jpg") no-repeat center
     center/cover;
 
   .showcase-text {
@@ -42,7 +89,7 @@ a {
 
     .tribute-title {
       padding: 0.5rem 1.5rem;
-      margin-top: 75vh;
+      margin-top: 71vh;
       background-color: $white-color;
 
       h1 {
@@ -71,6 +118,9 @@ a {
     margin: 1rem 0 4rem 0;
     font-size: 1.5rem;
     font-weight: 500;
+    position: relative;
+    padding-top: 60px;
+    margin-top: -60px;
 
     p {
       padding: 1.4rem 0 1.8rem 0;
@@ -79,6 +129,8 @@ a {
 
   article {
     margin: 3rem 0;
+    padding-top: 60px;
+    margin-top: -60px;
   }
 
   section {
